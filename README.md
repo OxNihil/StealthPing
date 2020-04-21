@@ -3,8 +3,6 @@
 usage: stealthping.py [-h] [-sP] [-sA] [-sO] [-C] [-m] [-p] [-i INTERFACE] -t
                       TARGET
 
-Parses command.
-
 optional arguments:
   -h, --help            show this help message and exit
   -sP                   single Ping
