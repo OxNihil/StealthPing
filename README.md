@@ -1,6 +1,6 @@
 # StealthPing
 
-usage: stealthping.py [-h] [-sP] [-sA] [-sO] [-C] [-m] [-p] [-i INTERFACE] -t
+<b>Usage:</b> stealthping.py [-h] [-sP] [-sA] [-sO] [-C] [-m] [-p] [-i INTERFACE] -t
                       TARGET
 
 optional arguments:
