@@ -22,7 +22,7 @@ def getOptions(args=sys.argv[1:]):
     parser.add_argument("--nat",help="Detect nated ports", action='store_true')
     parser.add_argument("-m", "--macchange",help="Change randomly the mac", action='store_true')
     parser.add_argument("-i", "--interface",help="Set the interface",required=False)
-    parser.add_argument("-C", "--capture",  help="Capture the network traffic to specific IP", action='store_true')
+    parser.add_argument("-C", "--capture",  help="Capture the TCP network traffic to specific IP", action='store_true')
     parser.add_argument("-t", "--target",help="Target IP",required=True)
     options = parser.parse_args(args)
     return options
